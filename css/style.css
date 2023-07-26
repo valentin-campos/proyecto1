@@ -32,7 +32,7 @@ header {
     justify-content: space-evenly;
     align-items: center;
     height: 100%;
-    background-color: black;
+    background: linear-gradient(83deg, rgba(0,3,4,1) 40%, rgba(18,108,148,1) 89%, rgba(14,183,217,1) 100%);
     
 }
 
@@ -61,10 +61,11 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
     order: 2;
+    font-family:'Times New Roman', Times, serif;
 }
 
 #nombre-logo h1 {
-    font-size: 34px;
+    font-size: 40px;
 }
 
 #menu {
@@ -112,7 +113,12 @@ header {
 
 .imagen1Inicio img {
     width: 80%;
-    height: 80%;  
+    height: 80%; 
+    transition: transform 0.3s ease;  
+}
+
+.imagen1Inicio:hover img {
+    transform: scale(1.2);
 }
 
 .imagen2Inicio {
@@ -128,6 +134,11 @@ header {
 .imagen2Inicio img {
     width: 80%;
     height: 80%;
+    transition: transform 0.3s ease;
+}
+
+.imagen2Inicio:hover img {
+    scale: 1.2;
 }
 .textoInicio {
     background-color: skyblue;
@@ -238,6 +249,8 @@ header {
 .equipos {
     font-size: 40px;
     padding: 10px;
+    border: 2px solid white;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /*HISTORIA*/
@@ -266,6 +279,7 @@ header {
     background-color: antiquewhite;
     margin: 30px;
     text-align: center;
+    font-size: 20px;
 }
 
 .imagenHistoria {
@@ -313,6 +327,7 @@ header {
     align-items: flex-start;
     padding: 20px;
     background-color: skyblue;
+    font-size: 30px;
 }
 
 .textoContacto {
@@ -323,6 +338,7 @@ header {
     border-top: 4px solid black;
     margin-top: 5px;
     text-align: center;
+    font-size: 20px;
 }
 
 
