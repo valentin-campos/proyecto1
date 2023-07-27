@@ -1,0 +1,40 @@
+/*FOOTER*/
+
+footer {
+    grid-area: footer;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 4px solid skyblue;
+    .footer-contenido {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        .logo {
+            .logo img {
+                height: 75px;
+                width: auto;
+            }
+        }
+        .footer-nav {
+            .footer-nav ul {
+                list-style: none;
+                padding: 0;
+                display: flex;
+                .footer-nav li {
+                    color: white;
+                    margin-right: 20px;
+                }
+            }
+        }
+        .footer-text {
+            color: white;
+            margin-top: 20px;
+            text-align: center;
+        }
+    }
+}
