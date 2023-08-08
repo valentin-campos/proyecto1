@@ -5,17 +5,16 @@
 }
 
 /*BODY*/
+
 body {
-  height: 100vh;
+  min-height: 100vh;
   display: grid;
-  grid-template-rows: 1fr repeat(2,3fr) 0.5fr; ;
+  grid-template-rows: auto 1fr auto;
   grid-template-columns: repeat(2,1fr);
   grid-template-areas: 
   "header header"
   "main main"
-  "main main"
-  "footer footer"
-  ;
+  "footer footer";
 }
 
 
