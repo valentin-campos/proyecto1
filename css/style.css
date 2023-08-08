@@ -92,7 +92,7 @@ header {
   grid-template-columns: repeat(2,1fr);
   grid-template-rows: 2fr 1.5fr;;
   grid-template-areas: 
-  "img1 img2" 
+  "img1 img1" 
   "aside aside"
   ;
   grid-row-gap: 10px;
@@ -101,13 +101,14 @@ header {
   
 }
 
-/*.imagen1Inicio {
+.imagen1Inicio {
   grid-area: img1;
-  display: flex;
+}
+  /*display: flex;
   align-items: center;
   justify-content: center;
   background-color: rgb(0, 28, 32);
-  
+
 }*/
 
 .imagen1Inicio img {
