@@ -26,8 +26,8 @@
         </nav>
     </header>
     
-    <main   class="d-flex align-items-center justify-content-center" style= " min-height: 80vh;">
-        <section>
+    <!--<main>
+        <section  class="d-flex align-items-center justify-content-center">
 
             <form class="row g-3 form bg-light p-10">
                 <div class="col-md-4">
@@ -50,11 +50,11 @@
                     <label for="inputLocalidad" class="form-label">Localidad</label>
                     <input type="tel" class="form-control" id="inputLocalidad">
                 </div>
-                
-        </select>
+        
+        
 
             
-                </div>
+            
 
                 <div class="mb-3">
                     <label for="Consulta" class="form-label">Consulta</label>
@@ -68,9 +68,50 @@
                 <div class="col-6 d-flex justify-content-start">
                     <button type="reset" class="btn btn-secondary">Limpiar el formulario</button>
                 </div>
-
             </form>
-    </main>   
+        </section>    
+    </main> -->
+    
+    <main class="d-flex align-items-center justify-content-center w-100">
+
+        <form class=" formContacto row g-3 form bg-light">
+            <div class="col-md-4">
+                <label for="inputName4" class="form-label">Nombre y Apellido</label>
+                <input type="text" class="form-control" id="inputName4">
+            </div>
+            <div class="col-md-4">
+                <label for="inputEmail4" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-4">
+                <label for="inputAddress" class="form-label">Teléfono</label>
+                <input type="tel" class="form-control" id="inputTelephone">
+            </div>
+            <div class="col-md-6">
+                <label for="inputProvincia" class="form-label">Provincia</label>
+                <input type="text" class="form-control" id="inputProvincia">
+            </div>
+            <div class="col-md-6">
+                <label for="inputLocalidad" class="form-label">Localidad</label>
+                <input type="tel" class="form-control" id="inputLocalidad">
+            </div>
+            
+            <div class="mb-3">
+                <label for="Consulta" class="form-label">Consulta</label>
+                <textarea class="form-control" id="consulta" rows="3"></textarea>
+            </div>
+        
+            <div class="col-6 d-flex justify-content-start">
+                <button type="submit" class="btn btn-primary ">Enviar</button>
+            </div>
+    
+            <div class="col-6 d-flex justify-content-start">
+                <button type="reset" class="btn btn-secondary">Limpiar el formulario</button>
+            </div>
+    
+        </form>
+
+    </main>
 
     <footer>
         <div class="footer-contenido">
