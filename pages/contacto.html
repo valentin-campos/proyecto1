@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactanos facil y rapido">
+    <meta name="keywords"  content="belgrano, club, club atletico belgrano, contacto, asistencia, facebook, instagram, consulta, formulario">
     <link rel="shortcut icon" href="../Assets/Imagenes/favicon.ico" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Contacto</title>
+    <title>Contacto | Club Atletico Belgrano</title>
 </head>
 <body>
     <header>
@@ -23,52 +25,51 @@
                 <li><a href="../pages/fixture.html">Calendario</a></li>
                 <li><a href="../pages/historia.html">Historia</a></li>
                 <li><a href="../pages/contacto.html">Contacto</a></li>
-                <li><a href="../pages/contacto2.html">Contacto2</a></li>
             </ul>
         </nav>
     </header>
-    <main class="mainContacto">
-        <div id="contenedorContacto">
-            <section class="tituloContacto">Contacta con Belgrano</section>
-            <p class="textoContacto">¡Gracias por querer ponerte en contacto con el Club Atlético Belgrano! Estamos encantados de poder atenderte y responder a cualquier consulta, sugerencia o comentario que puedas tener. A continuación, encontrarás las diferentes formas de contactarnos:
+    
+    <main class=" mainContacto2 d-flex align-items-center justify-content-center p-2">
 
-                Dirección:
-                Av. Colón 3500, Barrio Alberdi
-                Córdoba, Argentina
-                
-                Teléfono:
-                +54 351 555 1234
-                
-                Correo electrónico:
-                info@cab.com
-                
-                Redes sociales:
-                Síguenos en nuestras redes sociales para estar al día con las últimas noticias, eventos y actividades del club.
-                
-                - Facebook: @ClubAtleticoBelgrano
-                - Twitter: @Cab_Oficial
-                - Instagram: @caboficial
-                
-                Formulario de contacto:
-                Si prefieres enviarnos un mensaje directo, puedes utilizar nuestro formulario de contacto. Simplemente completa los campos requeridos y nos pondremos en contacto contigo lo antes posible.
-                
-                Horario de atención:
-                Nuestro equipo de atención al cliente está disponible para ayudarte de lunes a viernes, de 9:00 a 18:00 horas.
-                
-                Prensa y medios:
-                Para consultas relacionadas con prensa o medios de comunicación, por favor contacta con nuestro departamento de prensa:
-                
-                - Nombre del contacto: Juan Pérez
-                - Teléfono: +54 351 555 5678
-                - Correo electrónico: prensa@cab.com
-                
-                Si tienes alguna consulta específica o deseas obtener más información sobre el club, nuestras actividades, eventos deportivos o cómo puedes hacerte socio, no dudes en contactarnos. Estamos aquí para brindarte toda la asistencia que necesites.
-                
-                ¡Esperamos verte pronto en el Club Atlético Belgrano!</p>
-        </div>
+        <form class=" formContacto row g-3 form bg-light">
+            <div class="col-md-4">
+                <label for="inputName4" class="form-label">Nombre y Apellido</label>
+                <input type="text" class="form-control" id="inputName4">
+            </div>
+            <div class="col-md-4">
+                <label for="inputEmail4" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-4">
+                <label for="inputAddress" class="form-label">Teléfono</label>
+                <input type="tel" class="form-control" id="inputTelephone">
+            </div>
+            <div class="col-md-6">
+                <label for="inputProvincia" class="form-label">Provincia</label>
+                <input type="text" class="form-control" id="inputProvincia">
+            </div>
+            <div class="col-md-6">
+                <label for="inputLocalidad" class="form-label">Localidad</label>
+                <input type="tel" class="form-control" id="inputLocalidad">
+            </div>
+            
+            <div class="mb-3">
+                <label for="Consulta" class="form-label">Consulta</label>
+                <textarea class="form-control" id="consulta" rows="3"></textarea>
+            </div>
+        
+            <div class="col-6 d-flex justify-content-start">
+                <button type="submit" class="btn btn-primary ">Enviar</button>
+            </div>
+    
+            <div class="col-6 d-flex justify-content-start">
+                <button type="reset" class="btn btn-secondary">Limpiar el formulario</button>
+            </div>
+    
+        </form>
+
     </main>
-    
-    
+
     <footer>
         <div class="footer-contenido">
             <div class="logo">
@@ -87,8 +88,16 @@
         </div>
             <p class="footer-text">© 2023 Club Atletico Belgrano. Todos los derechos son reservados.</p>
         </div>
+        <div class="footer--seguinos">
+            <h6 class="footer--seguinos__texto">Seguinos en nuestras redes</h6>
+            <div>
+                <img src="../assets/imagenes/logoFacebook.png" alt="logoFacebook" class="footer--seguinos__logoRedes">
+                <img src="../assets/imagenes/logoInstagram.png" alt="logoInstagram" class="footer--seguinos__logoRedes">
+                
+            </div>
+        </div>
     </footer>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
