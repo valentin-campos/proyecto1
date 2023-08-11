@@ -14,14 +14,15 @@ footer {
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
-        .logo {
+        .logo{
             .logo img {
                 height: 75px;
                 width: auto;
             }
+
         }
         .footer-nav {
-            .footer-nav ul {
+            footer-nav ul {
                 list-style: none;
                 padding: 0;
                 display: flex;
@@ -31,10 +32,17 @@ footer {
                 }
             }
         }
+    }
+    .footerText {
         .footer-text {
             color: white;
             margin-top: 20px;
             text-align: center;
+        }
+    }
+    .footer--seguinos {
+        .footer--seguinos__texto {
+            color: white;
         }
     }
 }

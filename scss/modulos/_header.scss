@@ -1,28 +1,24 @@
 header {
     grid-area: header;
-    #nav-header {
+    .contenedorHeader {
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
-        height: 100%;
-        background: linear-gradient(83deg, rgba(0,3,4,1) 40%, rgba(18,108,148,1) 89%, rgba(14,183,217,1) 100%);;
-        #logo-header {
+        background: linear-gradient(83deg, rgba(0,3,4,1) 40%, rgba(18,108,148,1) 89%, rgba(14,183,217,1) 100%);
+        .logo-header {
             display: flex;
-            margin-right: 30px;
             flex-grow: 1;
             margin-left: 30px;
             flex-direction: row;
             flex-wrap: wrap;
             order: 1;
-            #logo-header img {
-                height: 80px;
+            logo-header img {
+                height: 95px;
                 width: auto;
                 margin-right: 10px;
             }
         }
-        #nombre-logo {
+        .nombre-logo {
             display: flex;
             color: skyblue;
             flex-grow: 1;
@@ -30,24 +26,27 @@ header {
             flex-direction: row;
             flex-wrap: wrap;
             order: 2;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            #nombre-logo h1 {
+            font-family:'Times New Roman', Times, serif;
+            .nombre-logo h1 {
                 font-size: 40px;
             }
         }
-        #menu {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            flex-grow: 3;
-            padding: 30px;
-            order: 3;
-            #menu li {
-                list-style-type: none;
-                margin: 10px;
-                border: 2px solid skyblue;
-                padding: 10px;
-                margin-left: 10px;
+        .navHeader {
+            .conteiner-fluid {
+                .navbar-toggler {
+                    .navbar-toggler-icon {
+
+                    }
+                }
+                #navbarNavDropdown {
+                    .navbar-nav {
+                        .nav-item {
+                            .nav-link {
+
+                            }
+                        }
+                    }
+                }
             }
         }
     }
