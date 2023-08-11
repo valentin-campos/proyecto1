@@ -12,7 +12,7 @@ header {
             flex-direction: row;
             flex-wrap: wrap;
             order: 1;
-            logo-header img {
+            img {
                 height: 95px;
                 width: auto;
                 margin-right: 10px;
@@ -27,26 +27,8 @@ header {
             flex-wrap: wrap;
             order: 2;
             font-family:'Times New Roman', Times, serif;
-            .nombre-logo h1 {
+            h1 {
                 font-size: 40px;
-            }
-        }
-        .navHeader {
-            .conteiner-fluid {
-                .navbar-toggler {
-                    .navbar-toggler-icon {
-
-                    }
-                }
-                #navbarNavDropdown {
-                    .navbar-nav {
-                        .nav-item {
-                            .nav-link {
-
-                            }
-                        }
-                    }
-                }
             }
         }
     }

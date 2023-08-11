@@ -5,7 +5,7 @@
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: 2fr 1.5fr;;
     grid-template-areas: 
-    "img1 img2" 
+    "img1 img1" 
     "aside aside"
     ;
     grid-row-gap: 10px;
@@ -13,35 +13,12 @@
     grid-area: main;
     .imagen1Inicio {
         grid-area: img1;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: rgb(0, 28, 32);
-        .imagen1Inicio img {
-            max-width: 80%;
-            max-height: 80%; 
-            transition: transform 0.3s ease;
-            &:hover {
-                transform: scale(1.2);
-            }
+        img {
+            transition: transform 0.3s ease;  
         }
     }
-    .imagen2Inicio {
-        grid-area: img2;
-        overflow: hidden;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        background-color: rgb(0, 28, 32);
-        .imagen2Inicio img {
-            width: 80%;
-            height: 80%;
-            transition: transform 0.3s ease;
-            &:hover {
-                transform: scale(1.2);
-            }
-        }
+    &:hover img {
+        transform: scale(1.2);
     }
     .textoInicio {
         background-color: skyblue;
@@ -49,7 +26,10 @@
         text-align: center;
         font-size: larger;
         font-size: 18px;
-        
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        font-size: 22px;
     }
 }
 
@@ -155,44 +135,6 @@
 
 .mainHistoria {
     grid-area: main;
-    background-color: blue;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    height: 75vh;
-    .textoHistoria {
-        background-color:  rgb(0, 149, 207);
-        flex-basis: 50%;
-        display: flex;
-        flex-direction: center;
-        justify-content: center;
-        align-items: center;
-        .textoHistoria p {
-            background-color: antiquewhite;
-            margin: 30px;
-            text-align: center;
-            font-size: 20px;
-        }
-    }
-    .imagenHistoria {
-        background-color: skyblue;
-        flex-basis: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        .imagenHistoria img {
-            width: 100%;
-            height: 100%;
-        }
-    }
-}
-
-/*CONTACTO*/
-
-.mainContacto {
-    grid-area: main;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -201,7 +143,7 @@
     margin-bottom: 10px;
     background-color: rgb(0, 149, 207);
     margin-top: 10px;
-    #contenedorContacto {
+    #contenedorHistoria {
         background-color: antiquewhite;
         display: flex;
         flex-direction: column;
@@ -209,7 +151,7 @@
         height: 100%;
         border: 3px solid black;
         padding: 30px;
-        .tituloContacto {
+        .tituloHistoria {
             display: flex;
             justify-content: center;
             align-items: flex-start;
@@ -217,7 +159,7 @@
             background-color: skyblue;
             font-size: 30px;
         }
-        .textoContacto {
+        .textoHistoria {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -229,3 +171,6 @@
         }
     }
 }
+
+/*CONTACTO*/
+

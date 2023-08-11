@@ -86,12 +86,6 @@ header {
 .imagen1Inicio {
   grid-area: img1;
 }
-  /*display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(0, 28, 32);
-
-}*/
 
 .imagen1Inicio img {
   
@@ -104,26 +98,6 @@ header {
 
 
 
-/*.imagen2Inicio {
-  grid-area: img2;
-  overflow: hidden;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  background-color: rgb(0, 28, 32);
-}
-
-.imagen2Inicio img {
-  width: 80%;
-  height: 80%;
-  transition: transform 0.3s ease;
-}
-
-.imagen2Inicio:hover img {
-  transform: scale(1.2);
-}*/
-
 .textoInicio {
   background-color: skyblue;
   grid-area: aside;
@@ -133,7 +107,7 @@ header {
   margin-right: 5px;
   margin-left: 5px;
   margin-bottom: 5px;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 
