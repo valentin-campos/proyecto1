@@ -176,47 +176,6 @@ header .contenedorHeader .nombre-logo h1 {
 }
 
 /*HISTORIA*/
-/*
-.mainHistoria {
-  grid-area: main;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 10px;
-  background-color: rgb(0, 149, 207);
-  margin-top: 10px;
-}
-.mainHistoria #contenedorHistoria {
-  background-color: antiquewhite;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100%;
-  border: 3px solid black;
-  padding: 30px;
-}
-.mainHistoria #contenedorHistoria .tituloHistoria {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 20px;
-  background-color: skyblue;
-  font-size: 30px;
-  width: 100%;
-  margin-bottom: 10px;
-}
-.mainHistoria #contenedorHistoria .textoHistoria {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  border-top: 4px solid black;
-  margin-top: 5px;
-  text-align: center;
-  font-size: 20px;
-}*/
 
 .mainHistoria {
   grid-area: main;
@@ -254,7 +213,7 @@ header .contenedorHeader .nombre-logo h1 {
 
 
 .contHistoria {
-  background-color: blue;
+  background-color: antiquewhite;
   display: flex;
   border-top: 4px solid black;
   
@@ -289,6 +248,7 @@ header .contenedorHeader .nombre-logo h1 {
 .videoHistoria {
   padding-top: 5px;
 }
+
 
 /*CONTACTO*/
 /*FOOTER*/
@@ -329,5 +289,6 @@ footer .footer-text {
 footer .footer--seguinos .footer--seguinos__texto {
   color: white;
 }
+
 
 /*# sourceMappingURL=style.css.map */
