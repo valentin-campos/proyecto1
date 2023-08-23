@@ -133,7 +133,7 @@ header .contenedorHeader .nombre-logo h1 {
   align-items: center;
   justify-content: center;
   margin-bottom: 10px;
-  background: radial-gradient(circle, rgba(0,3,4,1) 73%, rgba(18,108,148,1) 91%, rgba(14,183,217,1) 100%);
+  background: radial-gradient(circle, rgb(0, 3, 4) 73%, rgb(18, 108, 148) 91%, rgb(14, 183, 217) 100%);
   margin-top: 10px;
 }
 .mainCalendario .contenedorCalendario {
@@ -176,7 +176,6 @@ header .contenedorHeader .nombre-logo h1 {
 }
 
 /*HISTORIA*/
-
 .mainHistoria {
   grid-area: main;
   display: flex;
@@ -188,8 +187,7 @@ header .contenedorHeader .nombre-logo h1 {
   background-color: rgb(0, 149, 207);
   margin-top: 10px;
 }
-
-#contenedorHistoria {
+.mainHistoria #contenedorHistoria {
   background-color: antiquewhite;
   display: flex;
   flex-direction: column;
@@ -197,10 +195,8 @@ header .contenedorHeader .nombre-logo h1 {
   height: 100%;
   border: 3px solid black;
   padding: 30px;
-  
 }
-
-.tituloHistoria {
+.mainHistoria #contenedorHistoria .tituloHistoria {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -210,16 +206,12 @@ header .contenedorHeader .nombre-logo h1 {
   width: 100%;
   margin-bottom: 10px;
 }
-
-
-.contHistoria {
+.mainHistoria #contenedorHistoria .contHistoria {
   background-color: antiquewhite;
   display: flex;
   border-top: 4px solid black;
-  
 }
-
-.textoHistoria {
+.mainHistoria #contenedorHistoria .contHistoria .textoHistoria {
   background-color: antiquewhite;
   padding-left: 5px;
   font-size: 24px;
@@ -229,8 +221,7 @@ header .contenedorHeader .nombre-logo h1 {
   height: 100%;
   padding-right: 10px;
 }
-
-.contenidoImagenVideo {
+.mainHistoria #contenedorHistoria .contenidoImagenVideo {
   background-color: antiquewhite;
   display: flex;
   flex-direction: column;
@@ -239,16 +230,13 @@ header .contenedorHeader .nombre-logo h1 {
   padding-left: 10px;
   padding-top: 3px;
 }
-
-
-.imagenHitoria {
-  height: 70%;
-  width: 60%;
+.mainHistoria #contenedorHistoria .contenidoImagenVideo .imagenHistoria {
+  height: 100%;
+  width: 100%;
 }
-.videoHistoria {
+.mainHistoria #contenedorHistoria .contenidoImagenVideo .videoHistoria {
   padding-top: 5px;
 }
-
 
 /*CONTACTO*/
 /*FOOTER*/
@@ -290,5 +278,20 @@ footer .footer--seguinos .footer--seguinos__texto {
   color: white;
 }
 
+/*Calendario*/
+@media (max-width: 1200px) and (min-width: 320px) {
+  .mainCalendario .contenedorCalendario .partidos .partido .equipos {
+    font-size: 40px;
+    padding: 10px;
+    border: 2px solid white;
+    font-family: "Times New Roman", Times, serif;
+    flex-wrap: nowrap;
+  }
+  .mainHistoria #contenedorHistoria .contHistoria {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

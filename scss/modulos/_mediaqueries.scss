@@ -7,11 +7,11 @@
         border: 2px solid white;
         font-family: "Times New Roman", Times, serif;
         flex-wrap: nowrap;
+    }
 
-        .contHistoria {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-        }
+    .mainHistoria #contenedorHistoria .contHistoria {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
 }
