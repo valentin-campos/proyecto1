@@ -235,6 +235,15 @@ header .contenedorHeader .nombre-logo h1 {
   height: 100%;
   width: 100%;
 }
+
+.imagenestadio {
+  width: 100%;
+}
+.historiavi {
+  width: 560px;
+  height: 315px;
+}
+
 .mainHistoria #contenedorHistoria .contenidoImagenVideo .videoHistoria {
   padding-top: 5px;
 }
@@ -309,6 +318,14 @@ footer .footer--seguinos .footer--seguinos__texto {
     display: flex;
     justify-content: center;
     flex-direction: column;
+  }
+
+  .imagenestadio {
+    width: 100%;
+
+  }
+  .video {
+    width: auto;
   }
 
   footer {
