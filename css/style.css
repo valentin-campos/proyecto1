@@ -281,6 +281,15 @@ footer .footer--seguinos .footer--seguinos__texto {
 
 /*Calendario*/
 @media (max-width: 1200px) and (min-width: 320px) {
+
+  header .contenedorHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(83deg, rgb(0, 3, 4) 40%, rgb(18, 108, 148) 89%, rgb(14, 183, 217) 100%);
+    flex-direction: column;
+  }
+
   .mainCalendario .contenedorCalendario .partidos .partido .equipos {
     font-size: 40px;
     padding: 10px;
@@ -293,6 +302,18 @@ footer .footer--seguinos .footer--seguinos__texto {
     justify-content: center;
     flex-direction: column;
   }
+
+  footer {
+    grid-area: footer;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 4px solid skyblue;
+  }
+
 }
 
 /*# sourceMappingURL=style.css.map */
