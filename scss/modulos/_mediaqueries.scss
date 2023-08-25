@@ -1,5 +1,34 @@
-/*Calendario*/
+
 @media (max-width: 1200px) and (min-width: 320px) {
+
+
+    body {
+        height: 100vh;
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        grid-template-columns: 1fr;
+        grid-template-areas: "header" "main" "footer";
+    }
+    
+    header .contenedorHeader {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: linear-gradient(83deg, rgb(0, 3, 4) 40%, rgb(18, 108, 148) 89%, rgb(14, 183, 217) 100%);
+        flex-direction: column;
+    }
+    
+    header .contenedorHeader .nombre-logo {
+        display: flex;
+        color: skyblue;
+        flex-grow: 1;
+        margin-right: 35px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        order: 2;
+        font-family: "Times New Roman", Times, serif;
+    }
+
 
     .mainCalendario .contenedorCalendario .partidos .partido .equipos {
         font-size: 40px;
@@ -13,5 +42,32 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
+    }
+
+    .imagenestadio {
+        width: 100%;
+    
+    }
+    .historiavi {
+        width: 100%;
+    }
+
+    footer {
+        grid-area: footer;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        border-top: 4px solid skyblue;
+    }
+    
+    
+    footer .footer-contenido .footer-nav ul {
+        list-style: none;
+        padding: 0;
+        flex-direction: column;
+        display: flex;
     }
 }

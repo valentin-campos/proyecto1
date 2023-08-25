@@ -24,13 +24,10 @@
     .textoInicio {
         background-color: $celeste;
         grid-area: aside;
-        text-align: center;
-        font-size: larger;
-        font-size: 18px;
+        @include letra(22px, center);
         margin-right: 5px;
         margin-left: 5px;
         margin-bottom: 5px;
-        font-size: 22px;
     }
 }
 
@@ -54,10 +51,7 @@
     .tituloNoticias {
         grid-area: titulo;
         background-color: rgb(4, 118, 163);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @include flexbox(column, center, center);
         margin-top: 5px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         
@@ -83,11 +77,8 @@
 
 .mainCalendario {
     grid-area: main;
-    display: flex;
-    flex-direction: column;
+    @include flexbox(column, center, center);
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
     margin-bottom: 10px;
     background: radial-gradient(circle, rgba(0,3,4,1) 73%, rgba(18,108,148,1) 91%, rgba(14,183,217,1) 100%);
     margin-top: 10px;
@@ -101,16 +92,12 @@
         padding: 60px;
         width: 60%;
         .tituloCalendario {
+            @include letra(25px, center);
             font-weight: bold;
-            text-align: center;
             margin-bottom: 20px;
-            font-size: 25px;
         }
         .partidos {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
+            @include flexbox(column, center, center);
             height: $height;
             border: 1px solid black;
             background-color: rgb(107, 191, 224);
@@ -137,11 +124,8 @@
 
 .mainHistoria {
     grid-area: main;
-    display: flex;
-    flex-direction: column;
+    @include flexbox(column, center, center);
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
     margin-bottom: 10px;
     background-color: rgb(0, 149, 207);
     margin-top: 10px;
@@ -169,10 +153,9 @@
             border-top: 4px solid black;
             .textoHistoria {
                 background-color: antiquewhite;
+                @include letra(24px, center);
                 padding-left: 5px;
-                font-size: 24px;
                 padding-top: 15px;
-                text-align: center;
                 border-right: 3px solid $celeste;
                 height: $height;
                 padding-right: 10px;
@@ -180,10 +163,7 @@
         }
         .contenidoImagenVideo {
             background-color: antiquewhite;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            @include flexbox(column, center, center);
             padding-left: 10px;
             padding-top: 3px;
             .imagenHistoria {

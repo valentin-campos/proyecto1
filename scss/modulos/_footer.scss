@@ -3,11 +3,8 @@
 footer {
     grid-area: footer;
     background-color: black;
-    display: flex;
-    flex-direction: row;
+    @include flexbox(row, space-around, center);
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
     border-top: 4px solid $celeste;
     .footer-contenido {
         display: flex;

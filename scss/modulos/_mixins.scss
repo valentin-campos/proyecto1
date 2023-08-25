@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 
-@mixin reseteo-lista {
-    list-style-type: none;
-    text-align: center;
-    font-size: 1rem;
-}
-
 @mixin flexbox ($direction, $justify, $align) {
     display: flex;
     flex-direction: $direction;
@@ -20,3 +14,9 @@
 @mixin background-color {
     background-color: skyblue;
 }
+
+@mixin letra ($font-size, $text-align){
+    font-size: $font-size;
+    text-align: $text-align;
+}
+
