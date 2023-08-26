@@ -20,3 +20,8 @@
     text-align: $text-align;
 }
 
+@mixin justi-align ($justify, $align){
+    justify-content: $justify;
+    align-items: $align;
+}
+

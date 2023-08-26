@@ -2,8 +2,7 @@ header {
     grid-area: header;
     .contenedorHeader {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
+        @include justi-align(space-between, center);
         background: linear-gradient(83deg, rgba(0,3,4,1) 40%, rgba(18,108,148,1) 89%, rgba(14,183,217,1) 100%);
         .logo-header {
             display: flex;

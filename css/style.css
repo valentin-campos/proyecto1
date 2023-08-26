@@ -251,8 +251,8 @@ footer {
 }
 footer .footer-contenido {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 footer .footer-contenido .logo img {

@@ -139,8 +139,7 @@
         padding: 30px;
         .tituloHistoria {
             display: flex;
-            justify-content: center;
-            align-items: flex-start;
+            @include justi-align(center, flex-start);
             padding: 20px;
             background-color: $celeste;
             font-size: 30px;
